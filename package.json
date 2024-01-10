@@ -1,0 +1,35 @@
+{
+  "name": "excercise-junior",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000x\u0000c\u0000e\u0000r\u0000c\u0000i\u0000s\u0000e\u0000-\u0000J\u0000u\u0000n\u0000i\u0000o\u0000r\u0000\r\u0000 \u0000",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanmiloz/Excercise-Junior.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanmiloz/Excercise-Junior/issues"
+  },
+  "homepage": "https://github.com/juanmiloz/Excercise-Junior#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.5",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
